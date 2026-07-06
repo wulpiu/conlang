@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Виртуальное окружение (если используешь venv/virtualenv)
+venv/
+.venv/
+env/
+
+# Кэши инструментов
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Логи, которые мы гоняли вручную
+ruff_log.txt
+mypy_log.txt
+
+# IDE
+.vscode/
+.idea/
+
+# Файлы языков — раскомментируй, если НЕ хочешь хранить в git
+# свои рабочие .clng файлы (например, если они большие или часто меняются)
+# *.clng
